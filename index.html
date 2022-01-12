@@ -4,17 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+    rel="stylesheet">
   <title>Портфолио Junior верстальщика</title>
 </head>
 
 <body>
   <header class="page-header">
     <div class="container">
-      <a href="mailto:gordienkooff@gmail.com">
+      <a class="header-email" href="mailto:gordienkooff@gmail.com">
         gordienkooff@gmail.com
       </a>
-      <a href="tel:+79241655673">
+      <a class="header-phone" href="tel:+79241655673">
         +7 924 165 56 73
       </a>
     </div>
@@ -29,6 +31,9 @@
 
       <section class="intro">
         <h2 class="subheading">Давайте познакомимся</h2>
+        <figure class="user-image">
+          <img src="/files/2.jpg" alt="Моё фото" width="650" height="400">
+        </figure>
         <h3>Начинающий, но перспективный web разработчик</h3>
         <p>Стоит обратить внимание =).</p>
         <h3>Чем могу быть полезен</h3>
@@ -43,7 +48,11 @@
 
       <section class="portfolio">
         <h2 class="subheading">Мои работы</h2>
+        <figure class="project-image">
+          <img src="files/project.jpg" alt="Пример работы" width="928" height="536">
+        </figure>
         <h3>Магазин товаров для дома</h3>
+        <a class="button" href="/source/project/index.html">Открыть страницу</a>
         <p>Мой первый сайт.</p>
         <h3>Блог начинающего верстальщика</h3>
         <p>Статический блог про обучение HTML и CSS.</p>
@@ -52,10 +61,10 @@
   </main>
   <footer class="page-footer">
     <div class="container"></div>
-    <a href="mailto:gordienkooff@gmail.com">
+    <a class="footer-email" href="mailto:gordienkooff@gmail.com">
       gordienkooff@gmail.com
     </a>
-    <a href="tel:+79241655673">
+    <a class="footer-phone" href="tel:+79241655673">
       +7 924 165 56 73
     </a>
 
